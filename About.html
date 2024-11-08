@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="About.css">
+    <script src="About.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        
+            <ul class="Buttons">
+              <button onclick="goToHome()">Home</button>
+              <button onclick="goToMenu()">Menu</button>
+              <button onclick="goToAbout()">About</button>
+              <button onclick="goToContact()">Contact</button>
+            </ul>
+            <!-- <div class="header-image">
+                <img src="Images/Steak Pic.jpg" alt="Grilled Meat" />
+            </div> -->
+    
+          </nav>
+    
+          <script>
+            function goToMenu() {
+              window.location.href = "Menu.html";
+            }
+            function goToHome() {
+              window.location.href = "index.html";
+            }
+            function goToContact() {
+              window.location.href = "Contact.html";
+            }
+          </script>
+    </header>
+
+    <section class="testimonials">
+        <h2>WHAT SOME OF MY CUSTOMERS SAY</h2>
+
+        <div class="testimonial">
+            <div class="testimonial-text">
+                <p>"You can't go wrong with Chicken Mandi. I had it twice. The chicken was cooked perfectly, juicy & soft. Really nice Chicken to go to. I would definitely recommend it."</p>
+                <p>- Khalid Al Tamimi</p>
+            </div>
+            <div class="testimonial-image">
+                <img src="customer1.jpg" alt="Customer 1">
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+            </div>
+            <div class="testimonial-image">
+                <img src="food-image.jpg" alt="Food Image">
+                <div class="play-button">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-navigation">
+            <button class="prev">&#8249;</button>
+            <button class="next">&#8250;</button>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

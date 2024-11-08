@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="Menu.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+        
+            <ul class="Buttons">
+              <button onclick="goToHome()">Home</button>
+              <button onclick="goToMenu()">Menu</button>
+              <button onclick="goToAbout()">About</button>
+              <button onclick="goToContact()">Contact</button>
+            </ul>
+            <!-- <div class="header-image">
+                <img src="Images/Steak Pic.jpg" alt="Grilled Meat" />
+            </div> -->
+    
+          </nav>
+    
+          <script>
+            function goToHome() {
+              window.location.href = "index.html";
+            }
+            function goToAbout() {
+              window.location.href = "About.html";
+            }
+            function goToContact() {
+              window.location.href = "Contact.html";
+            }
+          </script>
+        </header>
+
+    <section class="popular-items">
+        <h2>POPULAR FOOD ITEMS</h2>
+        <div class="item">
+            <img src="burger.jpg" alt="Vegetable Burger">
+            <h3>VEGETABLE BURGER</h3>
+            <p>Barbeque Italian Cuisine</p>
+        </div>
+        <div class="item">
+            <img src="pizza.jpg" alt="Special Pizza">
+            <h3>SPECIAL PIZZA</h3>
+            <p>Italian Cuisine Pizza</p>
+        </div>
+        <div class="item">
+            <img src="fries.jpg" alt="Special French Fries">
+            <h3>SPECIAL FRENCH FRIES</h3>
+            <p>Barbeque Italian Cuisine</p>
+        </div>
+        <div class="item">
+            <img src="chicken.jpg" alt="Crispy Chicken">
+            <h3>CRISPY CHICKEN</h3>
+            <p>Japanese Cuisine Chicken</p>
+        </div>
+    </section>
+
+    <section class="book-table">
+        <h2>BOOK YOUR TABLE</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+        
+            <ul class="Buttons">
+              <button onclick="goToHome()">Home</button>
+              <button onclick="goToMenu()">Menu</button>
+              <button onclick="goToAbout()">About</button>
+              <button onclick="goToContact()">Contact</button>
+            </ul>
+            <!-- <div class="header-image">
+                <img src="Images/Steak Pic.jpg" alt="Grilled Meat" />
+            </div> -->
+    
+          </nav>
+    
+          <script>
+            function goToMenu() {
+              window.location.href = "Menu.html";
+            }
+            function goToAbout() {
+              window.location.href = "About.html";
+            }
+            function goToHome() {
+              window.location.href = "index.html";
+            }
+          </script>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>WE ARE READY TO HAVE YOU THE BEST DINING EXPERIENCES</h2>
+            <div class="section">
+                <i class="fas fa-clock"></i>
+                <h4>OPENING HOURS</h4>
+                <p>Monday - Friday</p>
+                <p>11:00 AM - 11:00 PM</p>
+            </div>
+            <div class="section">
+                <i class="fas fa-phone"></i>
+                <h4>LET'S TALK</h4>
+                <p>Phone: +123 456 7890</p>
+                <p>Fax: +123 456 7890</p>
+            </div>
+            <div class="section">
+                <i class="fas fa-envelope"></i>
+                <h4>BOOK A TABLE</h4>
+                <p>Email: info@example.com</p>
+                <p>Support: support@example.com</p>
+            </div>
+            <div class="section">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>OUR ADDRESS</h4>
+                <p>123 Main Street, New York, USA</p>
+                <p>City of Dreams</p>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Images/Restaurant.jpg" alt="Restaurant Image">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>

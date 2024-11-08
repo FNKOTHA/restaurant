@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        
+        <ul class="Buttons">
+          <button onclick="goToHome()">Home</button>
+          <button onclick="goToMenu()">Menu</button>
+          <button onclick="goToAbout()">About</button>
+          <button onclick="goToContact()">Contact</button>
+        </ul>
+        <!-- <div class="header-image">
+            <img src="Images/Steak Pic.jpg" alt="Grilled Meat" />
+        </div> -->
+
+      </nav>
+
+      <script>
+        function goToMenu() {
+          window.location.href = "Menu.html";
+        }
+        function goToAbout() {
+          window.location.href = "About.html";
+        }
+        function goToContact() {
+          window.location.href = "Contact.html";
+        }
+      </script>
+
+      <h1>TASTE THE AUTHENTIC SAUDI CUISINE</h1>
+      <p>
+        Among the best flavors of the world, every bite you take is something to
+        be treasured.
+      </p>
+      <button>Explore More</button>
+    </header>
+
+    <section class="hero">
+      
+      <div class="today-offer">
+        <h3>TODAY'S OFFER</h3>
+        <p>50% OFF on all main courses</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>EXCEPTIONAL CULINARY EXPERIENCE AND DELICIOUS FOOD</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+
+      <button>Read More</button>
+      <div class="contact">
+        <p>Contact us: +987 654 3210</p>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="service">
+        <h2>Fast Delivery</h2>
+        <p>Get your food delivered to your doorstep in no time.</p>
+      </div>
+      <div class="service">
+        <h2>Absolute Dining</h2>
+        <p>Experience the finest dining experience.</p>
+      </div>
+      <div class="service">
+        <h2>Pickup Delivery</h2>
+        <p>Order online and pick up your food.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Restaurant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
